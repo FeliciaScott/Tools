@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PathKeeper — Page Content & Link Map</title>
+<style>
+:root{--navy:#202b45;--blue:#5475a5;--ice:#eef3f9;--gold:#c48b52;--paper:#fbfaf7;--ink:#202a38;--muted:#657184;--line:#d9e0e9;--white:#fff;--green:#2f765f}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Arial,Helvetica,sans-serif}
+header{background:linear-gradient(125deg,#202b45,#354e76);color:white;padding:38px 20px}
+.wrap{max-width:1180px;margin:auto;padding:0 18px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:bold;color:#e4c39e}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.08;margin:10px 0}header p{max-width:760px;color:#edf1f7}
+main{padding:24px 0 55px}.panel{background:white;border:1px solid var(--line);border-radius:15px;padding:22px;margin:17px 0;box-shadow:0 7px 24px #202b450a}
+h2{font-size:22px;margin:0 0 8px}h3{font-size:16px;margin:0 0 6px}.muted{color:var(--muted);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{border:1px solid var(--line);border-radius:12px;padding:15px;background:#fff}.num{font-size:28px;font-weight:bold;color:var(--navy)}
+.note{background:#f7f0e6;border-left:4px solid var(--gold);padding:12px 14px;border-radius:7px;font-size:13px;margin:13px 0}
+.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:16px 0}
+input,select,textarea{font:inherit;width:100%;padding:10px;border:1px solid #cbd4df;border-radius:8px;background:white;color:var(--ink)}
+.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:900px;font-size:13px}th,td{padding:11px 9px;text-align:left;vertical-align:top;border-bottom:1px solid #e9edf2}th{background:#f3f6fa;color:#566278;text-transform:uppercase;letter-spacing:.4px;font-size:10px;position:sticky;top:0}
+.pill{display:inline-block;background:var(--ice);color:var(--navy);padding:3px 7px;border-radius:5px;font-size:11px;margin:2px 3px 2px 0}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{border:1px solid var(--line);border-radius:11px;padding:15px}.card p{font-size:13px;margin:7px 0}.card ul{padding-left:18px;font-size:13px;margin:7px 0}
+button,.button{background:var(--navy);color:white;border:0;border-radius:8px;padding:10px 13px;font-weight:bold;cursor:pointer;font-size:12px;text-decoration:none;display:inline-block}
+button.alt,.button.alt{background:var(--ice);color:var(--navy)}button.gold{background:#8c5c32;color:white}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.small{font-size:12px;color:var(--muted)}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.step{border:1px solid var(--line);border-radius:10px;padding:13px;background:#fbfcfe}.step b{display:block;margin-bottom:5px}
+details{border:1px solid var(--line);border-radius:9px;padding:12px 14px;margin:8px 0}summary{font-weight:bold;cursor:pointer}
+footer{padding:10px 18px 35px;color:var(--muted);font-size:12px}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}.controls,.cards,.flow{grid-template-columns:1fr}.panel{padding:15px}}
+@media print{header{background:white;color:black;padding:15px 0}header p,.eyebrow{color:#444}.panel{box-shadow:none;break-inside:avoid}.controls,.actions,.no-print{display:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">PathKeeper • Website Operations</div>
+<h1>Page Content & Link Map</h1>
+<p>A practical editing blueprint for deciding what each PathKeeper page should do, what information belongs on it, and which buttons should lead visitors to the next useful step.</p>
+</div></header>
+<main class="wrap">
+<section class="stats">
+<div class="stat"><div class="num" id="pageCount">32</div><div class="muted">Page / topic entries in this draft</div></div>
+<div class="stat"><div class="num" id="coreCount">8</div><div class="muted">Suggested core destinations</div></div>
+<div class="stat"><div class="num" id="linkCount">0</div><div class="muted">Suggested link relationships</div></div>
+<div class="stat"><div class="num">4</div><div class="muted">Visitor journey stages</div></div>
+</section>
+<section class="panel">
+<h2>Editing decisions first</h2>
+<p class="muted">The published Editing Map and Home pages expose project notes and button labels, but the individual page content and private Google Sites Pages panel are not fully readable from the public view. The descriptions below are proposed content based on the existing titles—not claims that those sections already exist.</p>
+<div class="note"><b>Preservation rule:</b> Do not delete or overwrite a page just because it appears duplicated. First compare its unique content and outbound links, save a copy or move the content to a safe draft, then decide whether to merge, rename, or retain it.</div>
+<div class="flow">
+<div class="step"><b>1 · Discover</b>Help visitors find the right topic or opportunity.</div>
+<div class="step"><b>2 · Understand</b>Explain the facts, requirements, trade-offs, and resources.</div>
+<div class="step"><b>3 · Decide</b>Help the visitor choose a realistic next step.</div>
+<div class="step"><b>4 · Act & prove</b>Track actions and produce evidence of progress.</div>
+</div>
+</section>
+<section class="panel">
+<h2>Page inventory with content to add</h2>
+<p class="muted">Search or filter this table. Use the recommendations as the working content brief for each page. Confirm actual page names and URLs against the Google Sites Pages panel.</p>
+<div class="controls no-print">
+<input id="search" placeholder="Search page title, purpose, content, or button…">
+<select id="groupFilter"><option value="">All groups</option></select>
+<select id="statusFilter"><option value="">All editing decisions</option><option>Keep</option><option>Review</option><option>Merge</option><option>Rename</option><option>Move</option><option>Create</option></select>
+</div>
+<div class="tablewrap"><table><thead><tr><th>Page title</th><th>Role / purpose</th><th>Information to include</th><th>Recommended buttons / links</th><th>Parent / group</th><th>Decision</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="actions no-print"><button onclick="downloadCSV()">Export page briefs (CSV)</button><button class="alt" onclick="window.print()">Print / save as PDF</button></div>
+</section>
+<section class="panel">
+<h2>Recommended main navigation</h2>
+<div class="cards" id="coreCards"></div>
+</section>
+<section class="panel">
+<h2>Button and cross-link plan</h2>
+<p class="muted">These are suggested destinations. In Google Sites, select each button and use the page picker to connect it to the matching page. Do not leave buttons pointing to a placeholder or an unrelated destination.</p>
+<div class="tablewrap"><table><thead><tr><th>Button label</th><th>Place it on</th><th>Link it to</th><th>Why</th></tr></thead><tbody id="links"></tbody></table></div>
+<div class="note"><b>Button-label rule:</b> use a label that describes the destination or action, such as “Browse Scholarships,” “Compare Locations,” or “Build My Action Plan.” Avoid vague labels such as “Click Here” unless the surrounding context makes the action unmistakable.</div>
+</section>
+<section class="panel">
+<h2>Site-wide content standard</h2>
+<details open><summary>Every page should answer five questions</summary><ol><li><b>Purpose:</b> What problem does this page help the visitor solve?</li><li><b>Useful information:</b> What facts, requirements, examples, and constraints matter?</li><li><b>Resources:</b> Where can visitors verify details or take action?</li><li><b>Decision:</b> What should a visitor compare, choose, or prepare?</li><li><b>Next step:</b> Which related page or action should the visitor visit next?</li></ol></details>
+<details><summary>Facts, patterns, comparisons, and decision frameworks</summary><p>Place this material in the Intelligence Center, then link it from the relevant topic pages. Avoid duplicating long research explanations on every page. Each topic page should contain a short summary plus a link to the full analysis.</p></details>
+<details><summary>Resources and links quality checks</summary><ul><li>Prefer official organization, school, government, and program pages for eligibility, deadlines, fees, and applications.</li><li>Label external links so visitors know what opens.</li><li>When a deadline or offer changes frequently, display a “last checked” date.</li><li>Do not describe an opportunity as currently open unless its current status has been checked.</li><li>Test every button on the published version, including mobile.</li></ul></details>
+</section>
+</main>
+<footer class="wrap">PathKeeper Page Content & Link Map • Planning draft. This file does not connect to Google Sites, modify the live site, or publish edits.</footer>
+<script>
+const pages = [
+{name:"Home",group:"Core navigation",parent:"—",decision:"Keep",purpose:"Introduce PathKeeper and direct visitors to the right starting point.",content:"Mission and who the site helps; simple start-here guide; featured pathways; what visitors can accomplish; concise explanation of the site.",buttons:"Our Core Mission; Free Library; Explore Opportunities; Build a Career Plan",next:"Intelligence Center; Opportunity Atlas; Career Planning; Resource Vault"},
+{name:"Opportunity Atlas",group:"Opportunity discovery",parent:"Home",decision:"Keep",purpose:"A central directory for finding structured opportunities.",content:"Opportunity categories; eligibility and age/education requirements; deadlines; costs or stipends; official application links; preparation checklist; last-checked date.",buttons:"Browse Scholarships; Explore Funding; Find Internships; View Certificates",next:"Scholarship; Funding; Internship; Education; Career Planning"},
+{name:"Residency",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find residency programs, placements, or structured learning experiences.",content:"Program type; who can apply; duration and location; costs or support; required materials; deadlines; official program links.",buttons:"Check Eligibility; Compare Programs; Prepare an Application",next:"Funding; Education; Mobility; Career Planning"},
+{name:"Startup",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find startup programs and resources for testing or launching an idea.",content:"Idea validation; startup programs; incubators; basic business setup; funding needs; application requirements; risks and milestones.",buttons:"Explore Accelerators; Find Funding; Validate an Idea",next:"Accelerator; Funding; Technology; Career Planning"},
+{name:"Accelerator",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Compare structured programs that help projects or businesses grow.",content:"Target stage; program duration; mentorship; equity or fees; deliverables; application deadlines; geographic restrictions.",buttons:"Compare Accelerators; Check Requirements; Build Application",next:"Startup; Mentorship; Funding"},
+{name:"Funding",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Help visitors identify financial support relevant to a goal.",content:"Grant or funding type; eligible applicant; allowed uses; award size where verified; deadlines; matching requirements; official source; scam warnings.",buttons:"Find Grants; Compare Funding; Check Eligibility",next:"Scholarship; Startup; Career Planning; Resource Vault"},
+{name:"Scholarship",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Locate scholarships and organize applications.",content:"Eligibility; award amount; study level; geographic limits; essay or reference requirements; deadline; official application page; application tracker.",buttons:"Search Scholarships; Prepare Documents; Track Applications",next:"Education; Funding; Study Abroad; Career Planning"},
+{name:"Fellowship",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find fellowships for study, research, service, or career development.",content:"Fellowship focus; applicant profile; duration; stipend or costs; expected outputs; application stages; official source.",buttons:"Browse Fellowships; Check Fit; Prepare Materials",next:"Education; Funding; Mentorship; Career Planning"},
+{name:"Mentorship",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find mentoring relationships and make them productive.",content:"Mentor sources; outreach examples; goals for a mentor relationship; boundaries; meeting agenda; follow-up process; program links.",buttons:"Find Mentorship; Draft an Introduction; Set Learning Goals",next:"Career Planning; Internship; Resource Vault"},
+{name:"Internship",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find practical work experience and prepare applications.",content:"Role and skills; paid/unpaid status; eligibility; location or remote status; dates; application materials; official posting; evidence to collect.",buttons:"Browse Internships; Prepare a Resume; Track Applications",next:"Career Planning; WorkProof; Mobility; Education"},
+{name:"Volunteering",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find service opportunities that build experience and contribute to a cause.",content:"Role; time commitment; location; training or screening; skills gained; organization credibility; sign-up link; how to document experience.",buttons:"Find Volunteer Roles; Compare Commitments; Record Experience",next:"Career Planning; WorkProof; Mobility"},
+{name:"Education",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Compare learning options against career goals and constraints.",content:"Credentials and learning formats; prerequisites; time and cost; financial aid; outcomes; accreditation or recognition checks; official provider links.",buttons:"Compare Learning Options; Find Certificates; Explore Study Abroad",next:"Certificates; Study Abroad; Competitions; Career Intelligence Lab"},
+{name:"Technology",group:"Opportunity discovery",parent:"Opportunity Atlas",decision:"Review",purpose:"Find technology tools, learning pathways, and technology-related opportunities.",content:"Skill areas; free or low-cost learning; tools and prerequisites; project ideas; technology programs; safety and privacy considerations.",buttons:"Explore Tech Skills; Find Training; Build a Project",next:"Education; Career Intelligence Lab; WorkProof; Resource Vault"},
+{name:"Mobility",group:"Location & mobility",parent:"Opportunity Atlas",decision:"Review",purpose:"Assess how location, access, and moving affect opportunity.",content:"Transportation; housing and cost of living; local industries; access to education and services; geographic eligibility; relocation costs and trade-offs.",buttons:"Compare Locations; Research Local Resources; Review Costs",next:"Location Power Differential Mapping; Career Planning; Opportunity Atlas"},
+{name:"Certificates",group:"Education subtopics",parent:"Education",decision:"Keep",purpose:"Help visitors choose useful certificates rather than collect credentials without a plan.",content:"Skill or role supported; issuing organization; price; time required; prerequisites; assessment; recognition; free alternatives; project to demonstrate the skill.",buttons:"Compare Certificates; Check Requirements; Add to Learning Plan",next:"Education; Career Intelligence Lab; WorkProof"},
+{name:"Study Abroad",group:"Education subtopics",parent:"Education",decision:"Keep",purpose:"Research international study opportunities and the practical requirements.",content:"Program and institution; eligibility; tuition and living costs; scholarships; visa and travel requirements from official sources; deadlines; language needs; safety and support.",buttons:"Compare Programs; Find Study Funding; Build a Preparation Checklist",next:"Scholarship; Funding; Mobility; Education"},
+{name:"Competitions",group:"Education subtopics",parent:"Education",decision:"Keep",purpose:"Find competitions that reward skill, ideas, research, or creative work.",content:"Topic; participant eligibility; submission format; deadline; fees; judging criteria; prizes; intellectual-property terms; official rules; portfolio value.",buttons:"Browse Competitions; Review Rules; Prepare a Submission",next:"Education; WorkProof; Career Intelligence Lab"},
+{name:"Intelligence Center",group:"Core navigation",parent:"Home",decision:"Keep",purpose:"Turn information into clearer decisions using facts, patterns, and comparisons.",content:"Facts, patterns and comparisons; decision frameworks; resource analysis; location analysis; assumptions and uncertainty; sources and dates checked.",buttons:"Compare Options; Analyze a Location; Open Resource Vault",next:"Opportunity Atlas; Mobility; Resource Vault; Career Planning"},
+{name:"Location Power Differential Mapping",group:"Intelligence & analysis",parent:"Intelligence Center",decision:"Keep",purpose:"Compare how locations differ in access to opportunity and practical constraints.",content:"Employment and industry; education and training; funding access; transportation; cost and affordability; public resources; evidence sources; location-specific advantages and disadvantages.",buttons:"Search Opportunities by Category and Location; Compare Locations; Review Key Patterns",next:"Intelligence Center; Mobility; Opportunity Atlas; Career Planning"},
+{name:"Search Opportunities by Category and Location",group:"Intelligence & analysis",parent:"Location Power Differential Mapping",decision:"Keep",purpose:"Let visitors narrow opportunity research by type and place.",content:"Search inputs for category and location; eligibility filters; local or remote scope; official result links; date checked; clear empty-state and next-step guidance.",buttons:"Search Opportunities; Reset Filters; Compare Results",next:"Opportunity Atlas; Mobility; Funding; Education"},
+{name:"Resource Vault",group:"Core navigation",parent:"Home",decision:"Keep",purpose:"Store reusable guides, templates, checklists, and trusted resources.",content:"Organized resource categories; concise description of each item; intended use; source; format; last-updated date; related topic pages.",buttons:"Browse Free Library; Open Templates; Visit Resource Intelligence Center",next:"Resource Intelligence Center; Career Planning; relevant topic pages"},
+{name:"Resource Intelligence Center",group:"Resource management",parent:"Resource Vault",decision:"Keep",purpose:"Evaluate resource usefulness and reliability before acting on it.",content:"Source credibility; freshness; intended audience; access or cost; evidence quality; limitations; comparison criteria; how to apply the resource.",buttons:"Evaluate a Resource; Compare Sources; Open Resource Vault",next:"Resource Vault; Intelligence Center; relevant opportunity page"},
+{name:"Problem Solving Center",group:"Planning & learning",parent:"Home",decision:"Review",purpose:"Help visitors define a problem, test causes, and choose a practical solution.",content:"Problem statement; evidence vs assumptions; root-cause methods; options; constraints; small tests; success measures; review loop.",buttons:"Define the Problem; Compare Solutions; Run a Small Test",next:"Career Planning; Intelligence Center; Resource Vault"},
+{name:"Career Intelligence Lab",group:"Planning & learning",parent:"Home",decision:"Review",purpose:"Build career understanding through role research, skill analysis, and evidence.",content:"Target roles; task and skill breakdown; demand and entry requirements; learning gaps; portfolio evidence; alternatives; source quality.",buttons:"Analyze a Career; Map Skill Gaps; Build Proof",next:"Education; Certificates; WorkProof; Portfolio Operator / PortfolioOS"},
+{name:"Focus Champions",group:"Planning & learning",parent:"Home",decision:"Review",purpose:"Support consistent work through focused sessions and visible progress.",content:"A defined goal; short work sessions; distraction plan; session outcome; recovery breaks; weekly review; simple progress measures.",buttons:"Start a Focus Session; Choose a Mission; Review Progress",next:"Career Planning; Execution & Progress; Portfolio Operator / PortfolioOS"},
+{name:"WorkProof",group:"Execution & evidence",parent:"Home",decision:"Review",purpose:"Help visitors turn completed work into credible evidence of skills.",content:"Evidence standard; project or task; starting problem; actions taken; result; artifacts or links; skill demonstrated; reflection and next improvement.",buttons:"Create Evidence; Open Evidence Block; Build a Portfolio",next:"Evidence Block; Career Intelligence Lab; Portfolio Operator / PortfolioOS"},
+{name:"Evidence Block",group:"Execution & evidence",parent:"WorkProof",decision:"Review",purpose:"Capture one concise, verifiable record of completed work.",content:"Task or project; date; context; actions; result; artifact link; skills demonstrated; proof limitations; next step.",buttons:"Save Evidence; Add Another Record; View WorkProof",next:"WorkProof; Portfolio Operator / PortfolioOS; Career Planning"},
+{name:"Elevate Learning Network v3",group:"Planning & learning",parent:"Home",decision:"Review",purpose:"Connect learning goals, practice, feedback, and opportunities into a repeatable system.",content:"Learning objective; baseline; practice resources; feedback loop; weekly milestones; peer or mentor support; proof of improvement.",buttons:"Choose a Learning Goal; Find Resources; Track Improvement",next:"Career Planning; Resource Vault; Focus Champions; WorkProof"},
+{name:"Portfolio Operator / PortfolioOS",group:"Execution & evidence",parent:"Career Intelligence Lab",decision:"Review",purpose:"Turn career development into a system of missions, levels, proof, and review.",content:"Goal; mission list; proof XP or progress rules; milestones; evidence requirements; weekly audit; next mission; rules that prevent gaming without real work.",buttons:"Start a Mission; Submit Proof; Run a Weekly Audit",next:"WorkProof; Evidence Block; Focus Champions; Career Planning"},
+{name:"Career Planning",group:"Core navigation",parent:"Home",decision:"Keep",purpose:"Convert a career direction into a feasible learning and work plan.",content:"Target outcome; current situation; skill gaps; weekly schedule; resources; milestones; constraints; fallback plan; review cadence.",buttons:"Create My Plan; Find Opportunities; Build Skills; Track Progress",next:"Opportunity Atlas; Resource Vault; Execution & Progress; Career Intelligence Lab"},
+{name:"Execution & Progress",group:"Execution & evidence",parent:"Career Planning",decision:"Keep",purpose:"Help visitors carry out plans and detect stalled progress.",content:"Action checklist; deadlines; applications; task status; blockers; evidence of work; next action; weekly review and adaptation.",buttons:"View My Next Actions; Track Applications; Record Evidence",next:"Career Planning; Opportunity Atlas; WorkProof; Focus Champions"},
+{name:"About & How to Use",group:"Core navigation",parent:"Home",decision:"Create",purpose:"Explain the mission, how the site is organized, and how to use it.",content:"Who PathKeeper serves; mission; visitor walkthrough; what each main section does; how to evaluate resources; how to move from research to action; limitations and contact route.",buttons:"Our Core Mission; Start Here; Browse Free Library",next:"Home; Intelligence Center; Opportunity Atlas; Resource Vault"}
+];
+const core = [
+["Home","Entry point","State the mission and route people to discovery, research, planning, and resources.","Our Core Mission → About & How to Use; Free Library → Resource Vault; Explore Opportunities → Opportunity Atlas; Build a Career Plan → Career Planning."],
+["Intelligence Center","Research & decisions","Centralize facts, comparisons, decision frameworks, and resource analysis.","Compare Options → relevant comparison; Analyze a Location → Location Power Differential Mapping; Open Resource Vault → Resource Vault."],
+["Opportunity Atlas","Discover opportunities","Organize scholarships, funding, education, internships, fellowships, and other opportunity types.","Browse Scholarships → Scholarship; Find Funding → Funding; Find Internships → Internship; Explore Education → Education."],
+["Mobility & Location","Location choices","Help compare opportunity access, costs, transport, and practical constraints by place.","Compare Locations → Location Power Differential Mapping; Search Local Opportunities → Search Opportunities by Category and Location."],
+["Career Planning","Plan a path","Turn a goal into weekly actions, skills, milestones, and a fallback plan.","Create My Plan → Career Planning tool/content; Find Opportunities → Opportunity Atlas; Track Progress → Execution & Progress."],
+["Execution & Progress","Do the work","Track actions, deadlines, applications, blockers, and proof of completion.","Record Evidence → WorkProof; View My Next Actions → execution checklist; Find Opportunities → Opportunity Atlas."],
+["Resource Vault","Tools & templates","Make guides, checklists, and trusted resources easy to locate and reuse.","Browse Free Library → Resource Vault library; Evaluate a Resource → Resource Intelligence Center."],
+["About & How to Use","Orientation","Explain the mission and guide new visitors through the site.","Start Here → Home or Career Planning; Our Core Mission → this page; Browse Sections → main navigation."]
+];
+const linkRows = [
+["Our Core Mission","Home","About & How to Use","Explain why PathKeeper exists before asking visitors to explore."],
+["Free Library","Home","Resource Vault","Make the free resources easy to find from the first visit."],
+["Explore Opportunities","Home / Career Planning","Opportunity Atlas","Move from a goal to concrete options."],
+["Compare Options","Intelligence Center","Relevant comparison or analysis page","Connect general research to a specific decision."],
+["Search Opportunities by Category and Location","Location Power Differential Mapping","Search Opportunities by Category and Location","Make the location/category search discoverable from its parent topic."],
+["Browse Scholarships","Opportunity Atlas","Scholarship","Send visitors directly to eligibility and application information."],
+["Find Funding","Opportunity Atlas / Startup","Funding","Centralize support options and application constraints."],
+["Explore Certificates","Education","Certificates","Help visitors evaluate credential value before enrolling."],
+["Explore Study Abroad","Education","Study Abroad","Connect learning choices to international program planning."],
+["Build My Plan","Opportunity Atlas / Home","Career Planning","Convert discovery into a realistic next step."],
+["Track Progress","Career Planning","Execution & Progress","Separate planning from follow-through and review."],
+["Create Evidence","Career Planning / Execution & Progress","WorkProof","Make completed work verifiable."],
+["Open Evidence Block","WorkProof","Evidence Block","Give users a focused form or template for documenting one result."],
+["Build a Portfolio","WorkProof / Career Intelligence Lab","Portfolio Operator / PortfolioOS","Organize evidence into a coherent career presentation."],
+["Evaluate a Resource","Resource Vault","Resource Intelligence Center","Help visitors judge source quality and relevance."]
+];
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function render(){
+ const q=document.getElementById('search').value.toLowerCase(), g=document.getElementById('groupFilter').value, d=document.getElementById('statusFilter').value;
+ const filtered=pages.filter(p=>(!q||[p.name,p.purpose,p.content,p.buttons,p.parent,p.group].join(" ").toLowerCase().includes(q))&&(!g||p.group===g)&&(!d||p.decision===d));
+ document.getElementById('rows').innerHTML=filtered.map(p=>`<tr><td><b>${esc(p.name)}</b><br><span class="pill">${esc(p.group)}</span></td><td>${esc(p.purpose)}</td><td>${esc(p.content)}</td><td>${esc(p.buttons)}<br><span class="small">Connect to: ${esc(p.next)}</span></td><td>${esc(p.parent)}</td><td><select aria-label="Editing decision for ${esc(p.name)}" data-title="${esc(p.name)}" class="decision"><option ${p.decision==="Keep"?"selected":""}>Keep</option><option ${p.decision==="Review"?"selected":""}>Review</option><option ${p.decision==="Merge"?"selected":""}>Merge</option><option ${p.decision==="Rename"?"selected":""}>Rename</option><option ${p.decision==="Move"?"selected":""}>Move</option><option ${p.decision==="Create"?"selected":""}>Create</option></select></td></tr>`).join("");
+ document.getElementById('pageCount').textContent=pages.length;
+ document.getElementById('coreCount').textContent=core.length;
+ document.getElementById('linkCount').textContent=linkRows.length;
+}
+function renderGroups(){const sel=document.getElementById('groupFilter');[...new Set(pages.map(p=>p.group))].sort().forEach(g=>sel.add(new Option(g,g)))}
+function renderCore(){document.getElementById('coreCards').innerHTML=core.map(c=>`<article class="card"><h3>${esc(c[0])}</h3><span class="pill">${esc(c[1])}</span><p>${esc(c[2])}</p><p><b>Button plan:</b> ${esc(c[3])}</p></article>`).join("")}
+function renderLinks(){document.getElementById('links').innerHTML=linkRows.map(r=>`<tr>${r.map(v=>`<td>${esc(v)}</td>`).join("")}</tr>`).join("")}
+document.getElementById('search').addEventListener('input',render);
+document.getElementById('groupFilter').addEventListener('change',render);
+document.getElementById('statusFilter').addEventListener('change',render);
+document.getElementById('rows').addEventListener('change',e=>{if(e.target.matches('.decision')){const p=pages.find(x=>x.name===e.target.dataset.title);if(p)p.decision=e.target.value}});
+function downloadCSV(){const header=["Page title","Group","Parent","Editing decision","Purpose","Information to include","Recommended buttons","Connect to"];const rows=pages.map(p=>[p.name,p.group,p.parent,p.decision,p.purpose,p.content,p.buttons,p.next]);const csv=[header,...rows].map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(",")).join("\r\n");const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='pathkeeper-page-content-link-map.csv';a.click();URL.revokeObjectURL(a.href)}
+renderGroups();renderCore();renderLinks();render();
+</script>
+</body></html>
+
